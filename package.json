@@ -1,5 +1,5 @@
 {
-  "name": "JATE",
+  "name": "TextEditor",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -21,6 +21,10 @@
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "webpack": "^5.69.1"
+  },
+  "engines": {
+    "node": "16.15.1"
   }
 }
