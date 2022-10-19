@@ -1,13 +1,25 @@
 # TextEditorPWA
+
 Text Editor that runs in the browser. Progressive web applications challenge.
 
+## Table of Contents
+
+[User Story](#user-story)
+[Acceptance Criteria](#acceptance-criteria)
+[Usage](#Usage)
+[Built With](#built-with)
+[Credits](#credits)
+
+
 ## User Story
+
 AS A developer
 I WANT to create notes or code snippets with or without an internet connection
 SO THAT I can reliably retrieve them for later use
 
 
 ## Acceptance Criteria
+
 GIVEN a text editor web application
 WHEN I open my application in my editor
 THEN I should see a client-server folder structure
@@ -34,3 +46,29 @@ THEN I should have my static assets precached upon loading along with subsequent
 WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
 
+## Usage
+
+![Text Editor Screenshot](client/dist/assets/Text-Editor-Screenshot.png)
+
+- Visit app at heroku link, https://evening-reef-90321.herokuapp.com/
+
+There's been issues deploying so you could also clone the repository and view the app manually
+
+- run 'npm install' in root folder
+- run npm start
+- see application in localhost
+
+## Built With
+
+- HTML
+- CSS
+- JavaScript
+- Node.js
+- Express.js
+- IndexedDB
+
+## Credits
+
+* Austin Poland
+* Github: https://github.com/ausbosspoland
+* Email: austinjpoland311@gmail.com
